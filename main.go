@@ -66,7 +66,7 @@ func handleQuery(dnsServer string, dialer proxy.Dialer, localConn net.PacketConn
 
 	n, err = localConn.WriteTo(resBuf, addr)
 	if err != nil {
-		fmt.Fprintln(os.Stderr, "back write error %s", err.Error())
+		fmt.Fprintln(os.Stderr, "back write error: ", err.Error())
 		return
 	}
 }
