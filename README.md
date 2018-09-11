@@ -2,7 +2,7 @@
 
 ### Install
 ```
-git clone https://github.com/cumtyc/dns2socks5.git
+git clone https://github.com/MittWillson/dns2socks5
 cd dns2socks5
 go build
 ```
